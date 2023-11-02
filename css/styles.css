@@ -61,14 +61,14 @@ body {
 }
 
 .page-header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .page-navigation {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   max-width: 785px;
   align-items: center;
@@ -142,10 +142,13 @@ body {
 
 .service-order-page {
   background-color: #2e2f42;
-}
-.service-order-content {
   padding-top: 168px;
   padding-bottom: 168px;
+}
+
+.service-order-content {
+  /* padding-top: 168px;
+  padding-bottom: 168px; */
 }
 
 .service-order-page-title {
@@ -164,10 +167,6 @@ body {
 .order-service-btn:hover,
 .order-service-btn:focus {
   background-color: #404bbf;
-}
-
-.order-service {
-  text-align: center;
 }
 
 .order-service-btn {
