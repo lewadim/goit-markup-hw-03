@@ -55,9 +55,9 @@ body {
 /* ============== COMMON STYLES ============== */
 
 /* ============== HEADER STYLES ============== */
+
 .page-header {
-  padding: 24px 0px;
-  /* padding-bottom: 24px; */
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -70,6 +70,7 @@ body {
 .page-navigation {
   display: flex;
   max-width: 785px;
+  align-items: center;
 }
 
 .menu {
@@ -127,9 +128,10 @@ body {
   color: #434455;
 }
 
-/* ============== HEADER STYLES ============== */
+/* ============== /HEADER STYLES ============== */
 
 /* ============== SERVICE ORDER PAGE STYLES ============== */
+
 .service-order-page {
   background-color: #2e2f42;
   padding-top: 168px;
@@ -159,9 +161,14 @@ body {
 }
 
 .order-service-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -170,7 +177,7 @@ body {
   background-color: #4d5ae5;
 }
 
-/* ============== SERVICE ORDER PAGE STYLES ============== */
+/* ============== /SERVICE ORDER PAGE STYLES ============== */
 
 /* ============== СOMPANY DESCRIPTION STYLES ============== */
 
@@ -201,7 +208,7 @@ body {
 }
 
 .company-description-list-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -218,9 +225,10 @@ body {
   color: #434455;
 }
 
-/* ============== COMPANY DESCRIPTION STYLES ============== */
+/* ============== /COMPANY DESCRIPTION STYLES ============== */
 
 /* ============== WORKERS STYLES ============== */
+
 .team-list {
   display: flex;
   justify-content: flex-start;
@@ -237,7 +245,6 @@ body {
 }
 
 .team {
-  /* padding-bottom: 72px; */
   margin-bottom: 72px;
   text-align: center;
   font-size: 36px;
@@ -248,9 +255,14 @@ body {
   text-transform: capitalize;
 }
 
+.team-list-border {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-list-item {
-  margin-top: 32px;
-  margin-bottom: 4px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list-title {
@@ -264,8 +276,6 @@ body {
 }
 
 .team-list-text {
-  margin-top: 4px;
-  margin-bottom: 32px;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -290,17 +300,7 @@ body {
 }
 
 .portfolio-list-title {
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 32px;
-  margin-bottom: 4px;
-}
-
-.portfolio-list-species {
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
-  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .portfolio {
@@ -325,6 +325,7 @@ body {
 }
 
 .portfolio-list-border {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -350,7 +351,20 @@ body {
 /* ============== FOOTER STYLES ============== */
 
 .page-footer-container {
-  padding: 100px 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logotype-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .page-footer {
@@ -363,7 +377,6 @@ body {
 
 .footer-text {
   width: 264px;
-  margin-top: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -371,4 +384,4 @@ body {
   color: #f4f4fd;
 }
 
-/* ============== FOOTER STYLES ============== */
+/* ============== /FOOTER STYLES ============== */
