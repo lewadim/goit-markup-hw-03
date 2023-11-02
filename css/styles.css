@@ -58,11 +58,11 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,13 +142,11 @@ body {
 
 .service-order-page {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .service-order-content {
-  /* padding-top: 168px;
-  padding-bottom: 168px; */
+  padding-top: 168px;
+  padding-bottom: 168px;
 }
 
 .service-order-page-title {
