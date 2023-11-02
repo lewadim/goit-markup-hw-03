@@ -57,9 +57,9 @@ body {
 /* ============== HEADER STYLES ============== */
 
 .page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .page-header-container {
@@ -77,8 +77,6 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .contact-list {
@@ -107,6 +105,8 @@ body {
 }
 
 .menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -114,19 +114,12 @@ body {
   color: #2e2f42;
 }
 
-/* .menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-} */
-
 .contact-list-link:hover,
 .contact-list-link:focus {
   color: #404bbf;
 }
 
 .contact-title {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-style: normal;
 }
 
