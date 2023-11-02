@@ -67,6 +67,8 @@ body {
 }
 
 .page-navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   max-width: 785px;
   align-items: center;
@@ -75,7 +77,8 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .contact-list {
@@ -111,6 +114,11 @@ body {
   color: #2e2f42;
 }
 
+/* .menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+} */
+
 .contact-list-link:hover,
 .contact-list-link:focus {
   color: #404bbf;
@@ -134,6 +142,8 @@ body {
 
 .service-order-page {
   background-color: #2e2f42;
+}
+.service-order-content {
   padding-top: 168px;
   padding-bottom: 168px;
 }
