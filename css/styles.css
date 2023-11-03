@@ -260,23 +260,24 @@ body {
   padding-bottom: 32px;
 }
 
+.team-list-title {
+  background-color: #ffffff;
+}
+
 .team-list-item {
   text-align: center;
   margin-bottom: 8px;
-}
-
-.team-list-title {
-  text-align: center;
+  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #ffffff;
 }
 
 .team-list-text {
   text-align: center;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -308,13 +309,10 @@ body {
 }
 
 .portfolio-title {
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 72px;
 }
 
 .portfolio-section {
-  width: 220px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
